@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>first_jsp</servlet-name>
+		<jsp-file>/WEB-INF/page/First.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first_jsp</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+</web-app>
